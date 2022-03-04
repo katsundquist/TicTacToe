@@ -1,0 +1,28 @@
+
+body {
+    text-align: center;
+}
+
+td {
+    border: 5px solid purple;
+    height: 125px;
+    width: 125px;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border-style: hidden;  /* https://css-tricks.com/table-with-borders-only-on-the-inside/ - possibility #3*/
+    }
+
+#restart {
+    margin: 20px;
+    cursor: pointer;
+}
+
+#turn-tracker {
+    font-size: 20px;
+}
